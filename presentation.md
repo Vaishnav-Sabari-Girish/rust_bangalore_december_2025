@@ -272,6 +272,9 @@ For more information visit  [](https://github.com/AlertAngel)
 You can also visit the website of **AlertAngel** (WIP)
 
 [](https://alertangel.github.io)
+<!--new_lines: 1-->
+And also it's **GitHub** 
+[](https://github.com/AlertAngel)
 
 <!--end_slide-->
 
