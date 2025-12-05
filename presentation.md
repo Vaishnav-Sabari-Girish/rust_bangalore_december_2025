@@ -166,7 +166,7 @@ Some examples are :
 
 # Widgets supported
 
-Currently in `no_std` the core widgets of `ratatui` as supported. This includes widgets like `Layout`, `Block`, `Border`, `Paragraph`, `Terminal` etc. 
+Currently in `no_std` the core widgets of `ratatui` are supported. This includes widgets like `Layout`, `Block`, `Border`, `Paragraph`, `Terminal` etc. 
 
 In `std` environments, most third-party widgets are also supported, like `tui-big-text`, `tui-popup` etc.
 
