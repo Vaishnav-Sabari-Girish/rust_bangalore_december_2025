@@ -6,10 +6,10 @@ read -rp "Enter your option: " option
 
 case "$option" in
 1)
-  presenterm --export-pdf rust_bangalore.md -x
+  presenterm --export-pdf presentation.md -x
   ;;
 2)
-  presenterm --export-html rust_bangalore.md -x
+  presenterm --export-html presentation.md -x
   ;;
 *)
   echo "Invalid Option" >&2
