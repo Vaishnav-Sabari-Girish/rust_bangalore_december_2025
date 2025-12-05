@@ -37,9 +37,9 @@ fn main() {
 
   let mut projects: Vec<&str> = vec![
       // Rust Projects
-      "Hayasen",
+      "AlertAngel",
       "ComChan (Serial Monitor)",
-      "Arduino CLI Interactive",   // Except This one
+      "Hayasen",
   ];
 
   let website: &str = "https://vaishnav.world";
