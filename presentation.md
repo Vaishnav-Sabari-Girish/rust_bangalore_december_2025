@@ -278,4 +278,18 @@ And also it's **GitHub**
 
 <!--end_slide-->
 
+# Links
+
+<!--new_lines: 1-->
+
+1. **Personal Website** : [](https://vaishnav.world)
+<!--new_lines: 1-->
+2. **GitHub** : [](https://github.com/Vaishnav-Sabari-Girish)
+<!--new_lines: 1-->
+3. **AlertAngel Website** : [](https://alertangel.github.io)
+<!--new_lines: 1-->
+4. **AlertAngel GitHub** : [](https://github.com/AlertAngel)
+
+<!--end_slide-->
+
 ![image:width:100%](./assets/ty.png)
