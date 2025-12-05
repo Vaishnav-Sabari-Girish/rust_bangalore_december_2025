@@ -21,3 +21,8 @@ presenterm ./presentation.md -x -c ./config/presenterm.yml -p
 You can also export the slides to PDF
 
 Use the `export.sh` Script for that.
+
+# Important Links
+
+1. **Mousefood** : <https://github.com/j-g00da/mousefood/>
+2. **My Mousefood programs** : <https://github.com/Vaishnav-Sabari-Girish/Mousefood-Programs>
