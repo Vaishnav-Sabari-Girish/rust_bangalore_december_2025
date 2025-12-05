@@ -2,7 +2,7 @@ transition :
     duration_millis: 750
     frames: 45
     animation: 
-        style: "fade"
+        style: "collapse_horizontal"
 
 defaults:
   terminal_font_size: 18
