@@ -164,7 +164,7 @@ Where can `mousefood` be used
 
 Some examples are : 
 
-1. **RP2040, Nordic Microcontrollers** : `no_std` only
+1. **STM32, RP2040, Nordic Microcontrollers** : `no_std` only
 <!--new_lines: 1-->
 2. **ESP32** : Both `no_std` and `std`
 
