@@ -163,19 +163,17 @@ Where can `mousefood` be used
 `mousefood` can be used on any microcontroller that supports `no_std` or `std` Embedded Rust.
 
 Some examples are : 
-1. `no_std` : 
-  - RP2040
-  - Nordic Microcontrollers
-  - ESP32
-2. `std` 
-  - ESP32 
+
+1. **RP2040, Nordic Microcontrollers** : `no_std` only
+<!--new_lines: 1-->
+2. **ESP32** : Both `no_std` and `std`
 
 <!--end_slide-->
 
 Widgets supported
 ===
 
-Currently in `no_std` the core widgets of `ratatui` are supported. This includes widgets like `Layout`, `Block`, `Border`, `Paragraph`, `Terminal` etc. 
+Currently in `no_std` the core widgets of `ratatui` are supported. This includes widgets like `Layout`, `Block`, `Border`, `Paragraph`, `Gauge`, `List`, `Tabs` etc. 
 
 In `std` environments, most third-party widgets are also supported, like `tui-big-text`, `tui-popup` etc.
 
@@ -250,7 +248,7 @@ It uses the following tech stack :
 ## Hardware
 
 1. Glyph C3 (ESP32-C3)
-2. 2.4" TFT display (SSD1306)
+2. 2.4" TFT display (ILI9341)
 3. Sensors (MPU9250, MAX30102, DS18B20)
 4. Touch sensors
 
