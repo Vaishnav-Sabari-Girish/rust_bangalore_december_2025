@@ -43,7 +43,7 @@ snippet:
 
   render:
     # the number of threads to use when rendering `+render` code snippets.
-    threads: 2
+    threads: 8
 
 bindings:
   # the keys that cause the presentation to move forwards.
