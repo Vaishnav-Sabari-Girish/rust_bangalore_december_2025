@@ -58,13 +58,18 @@ fn main() {
 2. Enables TUI applications on embedded displays (TFT Screens, OLED Screens)
 <!--new_lines: 1-->
 3. Works with both `std` and `no_std` targets.
+
 <!--new_lines: 1-->
+
+![image:width:100%](./assets/mousefood.png)
 
 <!--end_slide-->
 
 # The problem 
 
 
+<!--column_layout: [1, 1]-->
+<!--column: 0-->
 ## Traditional `ratatui` limitations
 
 <!--new_lines: 1-->
@@ -82,6 +87,10 @@ fn main() {
 2. Small screen real estate
 <!--new_lines: 1-->
 3. Resource constraints
+
+<!--column: 1-->
+
+![image:width:100%](./assets/ratatui.png)
 
 <!--end_slide-->
 
@@ -109,6 +118,8 @@ flowchart TD
 2. **Unicode font support** : Uses `embedded-graphics-unicodefonts` for box-drawing chars
 <!--new_lines: 1-->
 3. **Simulator Mode** : Develop with SDL2 before deploying on hardware.
+
+![image:width:100%](./assets/crab-rave.gif)
 
 <!--end_slide-->
 
@@ -168,6 +179,8 @@ Some examples are :
 <!--new_lines: 1-->
 2. **ESP32** : Both `no_std` and `std`
 
+![image:width:100%](./assets/rat-point.gif)
+
 <!--end_slide-->
 
 # Widgets supported
@@ -176,6 +189,8 @@ Some examples are :
 Currently in `no_std` the core widgets of `ratatui` are supported. This includes widgets like `Layout`, `Block`, `Border`, `Paragraph`, `Gauge`, `List`, `Tabs` etc. 
 
 In `std` environments, most third-party widgets are also supported, like `tui-big-text`, `tui-popup` etc.
+
+![image:width:100%](./assets/mousefood-demo.gif)
 
 <!--end_slide-->
 
@@ -234,7 +249,8 @@ curl -s qrenco.de/https://t.ly/JpDDE
 2. Mnyaoo32 (ESP32 IRC client) : [](https://github.com/intuis/mnyaoo32)
 <!--new_lines: 1-->
 3. Phone-OS (ESp32-CYD) : [](https://github.com/Julien-cpsn/Phone-OS)
-<!--new_lines: 1-->
+
+![image:width:100%](./assets/lethimcook-invert.gif)
 
 <!--end_slide-->
 
@@ -318,6 +334,9 @@ And also it's **GitHub**
 <!--new_lines: 1-->
 4. **AlertAngel GitHub** : [](https://github.com/AlertAngel)
 
+<!--new_lines: 1-->
+
+![image:width:25%](./assets/rat-noted.gif)
 <!--end_slide-->
 
 ![image:width:100%](./assets/ty.png)
