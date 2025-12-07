@@ -37,3 +37,4 @@ This is the link
 
 > [!NOTE]
 > This website renders properly only on **Chromium based browsers** like Google Chrome or Brave
+> It doesn't work on mobile phones so please view it only using a Laptop or a PC
