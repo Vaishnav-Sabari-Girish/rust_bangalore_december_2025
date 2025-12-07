@@ -11,8 +11,8 @@ theme:
 author: Vaishnav-Sabari-Girish
 ---
 
-WHO_AM_I
-===
+# WHO_AM_I
+
 
 <!--column_layout: [1, 3]-->
 <!--column: 0--> 
@@ -49,8 +49,8 @@ fn main() {
 
 <!--end_slide-->
 
-What is `mousefood`
-===
+# What is `mousefood`
+
 
 <!--new_lines: 1-->
 1. `embedded-graphics` backend for `ratatui`
@@ -62,8 +62,8 @@ What is `mousefood`
 
 <!--end_slide-->
 
-The problem 
-===
+# The problem 
+
 
 ## Traditional `ratatui` limitations
 
@@ -85,8 +85,8 @@ The problem
 
 <!--end_slide-->
 
-Ratatui Architecture
-===
+# Ratatui Architecture
+
 
 ```mermaid +render +width:100%
 flowchart TD
@@ -100,8 +100,8 @@ flowchart TD
 
 <!--end_slide-->
 
-How `mousefood` solves it
-===
+# How `mousefood` solves it
+
 
 <!--new_lines: 1-->
 1. **`embedded-graphics` integration** : Any `DrawTarget` can become a `ratatui` backend 
@@ -112,8 +112,8 @@ How `mousefood` solves it
 
 <!--end_slide-->
 
-Quick Start Code
-===
+# Quick Start Code
+
 
 ```rust
 use mousefood::prelude::*;
@@ -138,8 +138,8 @@ fn main() -> Result<(), error> {
 
 <!--end_slide-->
 
-Outputs 
-===
+# Outputs 
+
 
 <!--column_layout: [1, 1]-->
 <!--column: 0-->
@@ -156,8 +156,8 @@ Outputs
 
 <!--end_slide-->
 
-Where can `mousefood` be used
-===
+# Where can `mousefood` be used
+
 
 <!--new_lines: 1-->
 `mousefood` can be used on any microcontroller that supports `no_std` or `std` Embedded Rust.
@@ -170,8 +170,8 @@ Some examples are :
 
 <!--end_slide-->
 
-Widgets supported
-===
+# Widgets supported
+
 
 Currently in `no_std` the core widgets of `ratatui` are supported. This includes widgets like `Layout`, `Block`, `Border`, `Paragraph`, `Gauge`, `List`, `Tabs` etc. 
 
@@ -179,8 +179,8 @@ In `std` environments, most third-party widgets are also supported, like `tui-bi
 
 <!--end_slide-->
 
-Using `mousefood` in your Rust program
-===
+# Using `mousefood` in your Rust program
+
 
 To use `mousefood` on actual Hardware, currently you should add the latest versions of `ratatui` and `mousefood` to your `Cargo.toml`. This means that you will have to use the **Alpha** version of `ratatui` as shown below
 
@@ -195,8 +195,8 @@ ratatui = { version = "0.30.0-alpha.5", default-features = false }
 
 <!--end_slide-->
 
-Get started
-===
+# Get started
+
 
 To get started, I have created a repository which contains basic `ratatui` and `mousefood` programs for both Hardware (ESP32-WROOM) and Simulator (QR in next slide)
 
@@ -216,8 +216,8 @@ You can try the programs out by cloning this repository.
 
 <!--end_slide-->
 
-Repository link 
-===
+# Repository link 
+
 
 ```bash +exec
 curl -s qrenco.de/https://t.ly/JpDDE
@@ -226,8 +226,8 @@ curl -s qrenco.de/https://t.ly/JpDDE
 
 <!--end_slide-->
 
-Projects that use `mousefood` (Notable ones)
-===
+# Projects that use `mousefood` (Notable ones)
+
 
 1. Orhun Parmaksiz's (The legend himself) Tuitar : [](https://github.com/orhun/tuitar) 
 <!--new_lines: 1-->
@@ -238,8 +238,8 @@ Projects that use `mousefood` (Notable ones)
 
 <!--end_slide-->
 
-My personal project (Using `mousefood`, `ratatui` and `std`)
-===
+# My personal project (Using `mousefood`, `ratatui` and `std`)
+
 
 I am currently working on **AlertAngel**, a elderly monitoring system. 
 
@@ -266,8 +266,8 @@ For more information visit  [](https://github.com/AlertAngel)
 
 <!--end_slide-->
 
-Inspiration 
-===
+# Inspiration 
+
 
 The inspiration for the ID card form factor of **AlertAngel** came from the GitHub Universe badges which are unique. 
 
@@ -280,8 +280,8 @@ Below is the image of a GitHub Universe ID card (Image Credit : **Martin Woodwar
 
 <!--end_slide-->
 
-Some images
-===
+# Some images
+
 
 <!--column_layout: [1, 1]-->
 <!--column: 0-->
@@ -299,14 +299,14 @@ Some images
 You can also visit the website of **AlertAngel** (WIP)
 
 [](https://alertangel.github.io)
-<!--new_lines: 1-->
+
 And also it's **GitHub** 
 [](https://github.com/AlertAngel)
 
 <!--end_slide-->
 
-Links
-===
+# Links
+
 
 <!--new_lines: 1-->
 
