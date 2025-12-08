@@ -94,20 +94,6 @@ fn main() {
 
 <!--end_slide-->
 
-# Ratatui Architecture
-
-
-```mermaid +render +width:100%
-flowchart TD
-    A[Application Logic] --> B[Ratatui Core<br/>Widgets, Layout]
-    B --> C[Backend Layer]
-    C --> D[Crossterm<br/>Terminal]
-    C --> E[Mousefood<br/>Embedded]
-    D --> F[Terminal<br/>Display]
-    E --> G[embedded-graphics<br/>DrawTarget]
-```
-
-<!--end_slide-->
 
 # How `mousefood` solves it
 
@@ -120,6 +106,21 @@ flowchart TD
 3. **Simulator Mode** : Develop with SDL2 before deploying on hardware.
 
 ![image:width:100%](./assets/crab-rave.gif)
+
+<!--end_slide-->
+
+# Ratatui Architecture
+
+
+```mermaid +render +width:100%
+flowchart TD
+    A[Application Logic] --> B[Ratatui Core<br/>Widgets, Layout]
+    B --> C[Backend Layer]
+    C --> D[Crossterm<br/>Terminal]
+    C --> E[Mousefood<br/>Embedded]
+    D --> F[Terminal<br/>Display]
+    E --> G[embedded-graphics<br/>DrawTarget]
+```
 
 <!--end_slide-->
 
@@ -257,7 +258,7 @@ curl -s qrenco.de/https://t.ly/JpDDE
 # My personal project (Using `mousefood`, `ratatui` and `std`)
 
 
-I am currently working on **AlertAngel**, a elderly monitoring system. 
+I am currently working on **AlertAngel**, a monitoring system for Elderly people. 
 
 It uses the following tech stack : 
 
