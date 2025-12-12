@@ -72,21 +72,16 @@ fn main() {
 <!--column: 0-->
 ## Traditional `ratatui` limitations
 
-<!--new_lines: 1-->
-1. Required terminal environments
-<!--new_lines: 1-->
+1. Requires terminal environments
 2. Desktop/server focused
-<!--new_lines: 1-->
-3. Memory footprint is high.
+3. Typical terminal backends assume more RAM/CPU than many MCUs provide
 
 ## Embedded display challenge
 
-<!--new_lines: 1-->
 1. Limited character sets (ASCII Only)
-<!--new_lines: 1-->
 2. Small screen real estate
-<!--new_lines: 1-->
 3. Resource constraints
+4. Mapping terminal characters and layout to pixel-based displays is non-trivial.
 
 <!--column: 1-->
 
@@ -101,7 +96,7 @@ fn main() {
 <!--new_lines: 1-->
 1. **`embedded-graphics` integration** : Any `DrawTarget` can become a `ratatui` backend 
 <!--new_lines: 1-->
-2. **Unicode font support** : Uses `embedded-graphics-unicodefonts` for box-drawing chars
+2. **Code reusability** : Reuse your Ratatui skills/code on TFT, OLED, and e-paper displays.
 <!--new_lines: 1-->
 3. **Simulator Mode** : Develop with SDL2 before deploying on hardware.
 
@@ -120,6 +115,8 @@ flowchart TD
     C --> E[Mousefood<br/>Embedded]
     D --> F[Terminal<br/>Display]
     E --> G[embedded-graphics<br/>DrawTarget]
+    C --> H[Ratzilla<br/>Web]
+    H --> I[WASM<br/>Websites]
 ```
 
 <!--end_slide-->
