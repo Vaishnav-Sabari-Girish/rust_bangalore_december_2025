@@ -233,7 +233,7 @@ You can try the programs out by cloning this repository.
 
 
 ```bash +exec
-curl -s qrenco.de/https://t.ly/JpDDE
+qrterm https://t.ly/JpDDE
 ```
 
 
