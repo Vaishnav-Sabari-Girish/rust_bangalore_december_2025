@@ -241,14 +241,34 @@ qrterm https://t.ly/JpDDE
 
 # Projects that use `mousefood` (Notable ones)
 
-
-1. Orhun Parmaksiz's (The legend himself) Tuitar : [](https://github.com/orhun/tuitar) 
-<!--new_lines: 1-->
-2. Mnyaoo32 (ESP32 IRC client) : [](https://github.com/intuis/mnyaoo32)
-<!--new_lines: 1-->
-3. Phone-OS (ESp32-CYD) : [](https://github.com/Julien-cpsn/Phone-OS)
-
 ![image:width:100%](./assets/lethimcook-invert.gif)
+
+<!--end_slide-->
+
+# Orhun's (The legend himself) Tuitar
+
+![image:width:70%](./assets/tuitar.gif)
+
+<!--alignment: center-->
+[](https://github.com/orhun/tuitar)
+
+<!--end_slide-->
+
+
+# Mnya0032 (IRC Client on an ESP32)
+
+![image:width:70%](./assets/mnyaoo32.jpg)
+
+<!--alignment: center-->
+[](https://github.com/intuis/mnyaoo32)
+
+<!--end_slide-->
+# Phone-OS
+
+![image:width:30%](./assets/phone_os.png)
+
+<!--alignment: center-->
+[](https://github.com/Julien-cpsn/Phone-OS)
 
 <!--end_slide-->
 
